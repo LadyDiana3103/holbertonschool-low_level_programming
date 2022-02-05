@@ -7,13 +7,13 @@
  * Description: using the main function IF
  * this program prints "Programming is like building a multilingual puzzle"
  * Return: Allways return 0
- */
+ **/
 
 int main(void)
 {
 	int n;
 
-	Srand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
