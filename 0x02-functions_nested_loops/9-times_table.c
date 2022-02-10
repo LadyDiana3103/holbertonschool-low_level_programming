@@ -5,8 +5,7 @@
  * @n: number to revise
  * Return: Allways 0 succes
  */
-
-int times_table(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
