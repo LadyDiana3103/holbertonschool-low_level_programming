@@ -12,10 +12,9 @@ int _sqrt_recursion(int n)
 
 	if (n < 0)  /*validando que no sea negativo.. sino return -1*/
 		return (-1);
-	else if
-	{
+	else
 		return (prototype(n, i));
-	}
+
 }
 
 /**
@@ -29,6 +28,7 @@ int prototype(int n, int i)
 
 {
 	if ((i * i) == n)  /* n = i * i */
+	{
 		return (i);
 	}
 	if (i * i > n)
